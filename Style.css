@@ -34,7 +34,7 @@ html{
 	top: 50%;
 	left: 50%;
 	border-radius: 5% 5% 5% 5%;
-	box-shadow: 0px 0px 2vw+2vh black;
+	box-shadow: 0px 0px 1vw+1vh black;
 	transform: translate(-50%,-50%) scale(0.5);
 	transition: all 0.2s ease-in;
 }
