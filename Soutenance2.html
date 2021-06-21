@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>VegaSpaceR Développement Soutenance2</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+
+        <header>
+
+            <nav>
+
+                <ul> 
+                    <li> <a href="index.html"> Jeu </a></li>
+                    <li> <a href="Développement.html"> Développement </a></li>
+                    <li> <a href="Téléchargement.html"> Téléchargement </a></li>
+                </ul>
+
+                <div id ="Zerkhad-300F">
+                    <img src="logo/Lowgo.png" alt="Zerkhad-300F" class="responsive">
+                </div>
+
+            </nav>
+                <div id ="VegaSpaceR">
+                    <img src = "logo/VegaSpaceR2.png" alt="VegaSpaceR" class="vega">
+                </div>  
+
+        </header>
+
+                <div id ="Winx">
+                    <h2>Développement</h2>
+                </div>
+
+            <section id="Presentation">
+
+
+<!-- -------------------------------------------------------------------------Soutenance 2---------------------------------------------------------------------------------- -->
+
+                <div id = "Soutenance2">
+                    <h3>Road To Second soutenance</h3>
+                    
+                    <h4>Gameplay</h4>
+                        <p>Nous avons implémenté de nouveaux mouvements (basés sur les axes (x,y,z)) qui permettent un déplacement libre dans tout le vaisseau.</p>
+                        <p>Nous avons également créer une "hitbox" (partie physique du vaisseau) afin que les objets et les joueurs ne dérivent pas dans le vide intersidérale !</p>
+                        <p>L'ajout des portes a été également effectué, elle sont animées et synchronisées avec un son distinctifs. Elles s'ouvrent automatiquement au passage des joueurs et normalement ne les écrasent pas s'ils restent en dessous !</p>
+                        <p>Chaque salle à un texte d'introduction associé et est récité par Unity-39 (notre IA) à la première arrivée dans la dite salle !</p>
+
+
+                    <h4>Réseau</h4>
+                        <p>Le réseau est terminé, il est fonctionnel. Il n'y a donc pas de nouveauté de ce côté !</p>
+
+
+                    <h4>IA</h4>
+                        <p>L'IA à reçu une petite mise à jour et ne se prend plus les murs !</p>
+                        <p>Et suis maintenant les joueurs sans soucis !</p>
+                    <!--<div class="images">
+                        <img src = "image/IA avant.PNG" alt = "IAvant">
+                        <img src = "image/IA arrière.PNG" alt = "IArrière">
+                    </div> -->
+
+
+                    <h4>Graphismes</h4>
+
+                    <h5>Objets :</h5>
+                        <p>Cette tâche consiste à modélisés tous les objets du jeu. Ils seront évidemment interactifs avec l’environnement et feront partie des énigmes.</p>
+                    <div class="images">
+                        <img src = "image/S2/Bouton.PNG" alt = "Bouton de l'espace">
+                        <img src = "image/S2/fusible less, support (1).PNG" alt = "Support pour fusible de l'espace">
+                        <img src = "image/S2/fusible less, support (2).PNG" alt = "Fusible de l'espace">
+                        <img src = "image/S2/fusible less, support (3).PNG" alt = "Fusible de l'espace dans son support pour fusible de l'espace">
+                        <img src = "image/S2/lumière.PNG" alt = "Lumière de l'espace">
+                        <img src = "image/S2/tablette.PNG" alt = "Tablette de l'espace">
+                        <img src = "image/S2/moteur.PNG" alt = "Moteur de l'espace">
+                        <img src = "image/S2/moteur_lumière.PNG" alt = "Moteur de l'espace (lumineux)">
+                        <img src = "image/S2/Boîte fermée.PNG" alt = "Boîtier de l'espace">
+                        <img src = "image/S2/Boîte ouverte.PNG" alt = "Boîtier de l'espace ouvert">
+                        <img src = "image/S2/digit code.PNG" alt = "Digicode de l'espace">
+                        <img src = "image/S2/réservoir.PNG" alt = "réservoir de l'espace">
+                        <img src = "image/S2/réservoir_tableau.PNG" alt = "tableau du réservoir de l'espace">
+                        <img src = "image/S2/Porte blob.PNG" alt = "Porte en verre de l'espace">
+                        <img src = "image/S2/Porte.PNG" alt = "Porte de l'espace">
+                        <img src = "image/S2/Table.PNG" alt = "Table de l'espace">
+                        <img src = "image/S2/Table2.PNG" alt = "Table de l'espace">
+                    </div>
+
+
+                    <h5>Environnements :</h5>
+                        <p>Nous avons, durant cette soutenance réalisé l'entièreté de l'intérieur du vaisseau.</p>
+                        <p>Il est basé sur un axe principale et a deux sections. La première section située en haut du vaisseau est une zone de vie avec les chambres, la salle de repos...</p>
+                        <p>Tandis que la seconde section, située en bas, est une zone de travail avec notamment le laboratoire, la salle de navigation et l'Alienarium.</p>
+
+                    <div class="images">
+                        <img src = "image/S2/Navette.PNG" alt = "Navette de l'espace">
+                        <img src = "image/S2/Navigation.PNG" alt = "Salle de navigation de l'espace">
+                        <img src = "image/S2/Couloir principale.PNG" alt = "Couloir principale">
+                        <img src = "image/S2/Chambres.PNG" alt = "Chambre de l'espace">
+                        <img src = "image/S2/storage_int.PNG" alt = "storage1">
+                        <img src = "image/S2/Storage_intérieur.PNG" alt = "storage2">
+                        <img src = "image/S2/storage_intérieur2.PNG" alt = "storage3">
+                        <img src = "image/S2/Alienarium.PNG" alt = "Alienarium">
+                    </div>
+                    
+                    <h5>Plan du vaisseau en 3D :</h5>
+
+                    <div class="images">
+                        <img src = "image/S2/Plan1.PNG" alt = "Premier plan">
+                        <img src = "image/S2/Plan2.PNG" alt = "Deuxième plan">
+                        <img src = "image/S2/Plan3.PNG" alt = "Troisième plan">
+    
+                    </div>
+
+                    <img src = "image/S2/Plan légende.PNG" alt = "Légende du plan du vaisseau">
+
+                   
+                   
+                    <h5>Personnages :</h5>
+                        <p>De ce côté, nous avons mis à jour la combinaison car elle avait quelques problèmes lors de son implémentation dans le projet.</p>
+                        <p>Nous avons également réalisé l'apparence de notre alien blob ainsi que son animation.</p>
+                        <div class="images">
+                            <img src = "image/S2/Combinaison.PNG" alt = "Combinaison d'astronaute avant">
+                            <img src = "image/S2/Combinaison2.PNG" alt = "Combinaison d'astronaute arrière">
+                            <img src = "image/S2/Blob.PNG" alt = "Blob">
+                            <video src="image/S2/Blob anim.mp4" controls poster= "image/S2/Blob.PNG" alt ="Blob de l'espace animé !">
+                                Your browser does not support the video element. 
+                            </video>
+                        </div>
+
+
+                    <h4>Sons</h4>
+
+                        <p>Pour le son nous nous sommes focalisés sur l'implémentation des bruitages et des voice line de l'IA, dans le but d'avoir une ambiance plus réaliste et agréable à écouter.</p>
+                        
+                    <h5>Bruitages :</h5>
+
+                    <audio controls>
+                        <source src="son/S2/moteur.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio src="son/S2/neon.mp3" controls type="audio/mpeg"></audio>
+                    <audio src="son/S2/Door/Ouverture de Porte.mp3" controls type="audio/mpeg"></audio>
+                    <audio src="son/S2/Door/Fermeture de Porte.mp3" controls type="audio/mpeg"></audio>
+                                       
+                    <h5>Voice line de l'IA :</h5>
+                    <audio controls>
+                        <source src="son/S2/Dialogue IA/AISPEECHAwakePlayer.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio src="son/S2/Dialogue IA/AISPEECHLab.mp3" controls type="audio/mpeg"></audio>
+                    <audio src="son/S2/Dialogue IA/AISPEECHNavigation.mp3" controls type="audio/mpeg"></audio>
+
+                </div>
+
+<!-- -------------------------------------------------------------------------Soutenance 3---------------------------------------------------------------------------------- -->
+       
+
+        <footer>
+            
+        </footer>
+    </body>
+
+    <div class="modal">
+        <img src="" alt="" class="full-img"/>
+        <p class="caption"></p>
+    </div>
+    <script src="app.js"></script>
+
+</html>
