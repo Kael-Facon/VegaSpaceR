@@ -53,6 +53,20 @@ a {
 	color: #A992FF;
 	}
 
+a p{
+	color: #A992FF;
+}
+
+a h3{
+	text-decoration: none;
+	color: #C3D1E3;
+}
+
+a:hover{
+	color: #D6CBFF;
+	transform: scale(1.1);
+	transition: 0.2s ease-in;
+}
 
 	body::-webkit-scrollbar {
 		margin: 0.25vh;
@@ -235,14 +249,3 @@ header li a:hover{
 	background-size: cover;
 	transition: 0.2s ease-in;
 	}*/
-
-a h3{
-	text-decoration: none;
-	color: #C3D1E3;
-}
-
-a h3:hover{
-	color: #D6CBFF;
-	transform: scale(1.1);
-	transition: 0.2s ease-in;
-}
