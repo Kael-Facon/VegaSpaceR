@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 html{
@@ -149,6 +149,7 @@ header li a:hover{
 	font-size: 2em;
 	padding: 1em 3em;
 	color: #C3D1E3;
+	text-align: justify;
 	text-justify: space-between;
 }
 
@@ -218,8 +219,8 @@ header li a:hover{
 .full-img {
 	opacity: 0;
 	position: absolute;
-	max-width: 150vmin;
-	max-height: 120vmin;
+	max-width: 90vmin;
+	max-height: 90vmin;
 
 	top: 50%;
 	left: 50%;
