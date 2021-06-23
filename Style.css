@@ -218,8 +218,8 @@ header li a:hover{
 .full-img {
 	opacity: 0;
 	position: absolute;
-	max-width: 90vw;
-	max-height: 80vh;
+	max-width: 150vmin;
+	max-height: 120vmin;
 
 	top: 50%;
 	left: 50%;
