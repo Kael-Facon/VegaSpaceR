@@ -234,8 +234,8 @@ header li a:hover{
 .full-img.open {
 	opacity: 1;
 	transform: translate(-50%,-50%) scale(1.75);
-	max-width: 50vw;
-	max-height: 50vh;
+	max-width: 80vw;
+	max-height: 80vh;
 }
 
 .modal p {
