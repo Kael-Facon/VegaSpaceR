@@ -235,7 +235,7 @@ header li a:hover{
 	opacity: 1;
 	transform: translate(-50%,-50%) scale(1.75);
 	max-width: 70vw;
-	max-height: 70vh;
+	max-height: 65vh;
 }
 
 .modal p {
@@ -244,7 +244,7 @@ header li a:hover{
 	font-size: 2rem;
 	text-shadow: 0px 0px 30px black;
 	transition: all 0.2s ease-in;
-	margin: auto 120vh;
+	margin: auto 125vh;
 	text-align: center;
 	padding: 0 0;
 }
