@@ -244,8 +244,8 @@ header li a:hover{
 	font-size: 2rem;
 	text-shadow: 0px 0px 30px black;
 	transition: all 0.2s ease-in;
-	margin: auto 125vh auto 0;
-	/*text-align: center;*/
+	margin-top: 125vh;
+	text-align: center;
 }
 
 /* ********************************* Plus test affichage *************************************** */
