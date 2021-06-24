@@ -232,6 +232,17 @@ header li a:hover{
 	box-shadow: 0px 0px 2vh black;
 	object-fit: cover;
 }
+.videos img{
+	max-width: 20em;
+	max-height: 15em;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	margin: 0.6vw 0.6vh 0.6vw 0.6vh;
+	border-radius: 5% 5% 5% 5%;
+	box-shadow: 0px 0px 2vh black;
+	object-fit: cover;
+}
 
 /* ************************ Test affichage ******************************* */
 
